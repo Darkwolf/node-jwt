@@ -1,0 +1,39 @@
+{
+  "name": "@darkwolf/jwt",
+  "version": "1.0.0",
+  "description": "JSON Web Token",
+  "type": "module",
+  "main": "./lib/index.cjs",
+  "exports": {
+    "import": "./lib/index.mjs",
+    "require": "./lib/index.cjs"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darkwolf/node-jwt.git"
+  },
+  "keywords": [
+    "jwt",
+    "jsonwebtoken",
+    "encoder",
+    "decoder",
+    "signer",
+    "verifier"
+  ],
+  "author": "Pavel Wolf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Darkwolf/node-jwt/issues"
+  },
+  "homepage": "https://github.com/Darkwolf/node-jwt#readme",
+  "dependencies": {
+    "@darkwolf/base64url": "^100.0.5",
+    "@darkwolf/primordials": "^1.2.1"
+  }
+}
