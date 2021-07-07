@@ -1,6 +1,6 @@
 {
   "name": "@darkwolf/jwt",
-  "version": "100.0.3",
+  "version": "100.0.4",
   "description": "JSON Web Token",
   "type": "module",
   "main": "./lib/index.cjs",
